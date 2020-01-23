@@ -16,14 +16,10 @@ Route::resource('/', 'homeController');
 
 Route::get('vencedor','vencedorController@index'); 
 
-//Route::post('cadastro', 'usuariosController@store');    
 Route::resource('cadastro', 'usuariosController');
 
-//Route::get('login', 'loginController@index');    
-//Route::post('login', 'loginController@store');   
 Route::resource('login', 'loginController'); 
 
 Route::resource('deslogar', 'deslogarController');
 
-//Route::post('aposta', 'apostasController@store');    
 Route::resource('aposta', 'apostasController');
