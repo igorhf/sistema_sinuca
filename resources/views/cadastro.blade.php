@@ -12,7 +12,7 @@
 
   <body>
 
-    <div class="" style="margin-left:22%;margin-right:22%;margin-top:5%">
+    <div class="border" style="margin-left:35%;margin-right:35%;margin-top:5%">
       <h1 class="text-center">Cadastro Usuario</h1>
       <form action="#" method="post">
         {{ csrf_field() }}
@@ -28,7 +28,7 @@
           <label for="cf_pwd">Confirmar Senha:</label>
           <input type="password" class="form-control" placeholder="" id="cf_senha" name="cf_senha" required>
         </div>
-        <button type="submit" class="btn btn-primary">Salvar</button>
+        <button type="submit" class="btn btn-primary btn-block">Salvar</button>
       </form>
       <br>
 

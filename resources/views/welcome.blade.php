@@ -15,7 +15,7 @@
 
     <h1 class="text-center">Sistema de Sinuca</h1>
 
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-light border" style="background-color: #e3f2fd;">
       <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="/">Home</a>
